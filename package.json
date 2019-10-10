@@ -1,0 +1,16 @@
+{
+    "name": "nitika_ary",
+    "version": "0.0.3",
+    "author": "Nitika",
+    "main": "ary.js",
+    "scripts": {
+        "build": "babel --extentions '.ts' src -d dist && browserify ./dist/main.js -o dist/bundle.js"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.6.3",
+        "@babel/core": "^7.6.3",
+        "@babel/preset-env": "^7.6.3",
+        "@babel/preset-typescript": "^7.6.0",
+        "browserify": "^16.5.0"
+    }
+}
